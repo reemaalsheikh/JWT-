@@ -1,0 +1,40 @@
+What is JWT?
+JWT stands for JSON Web Token, a compact, URL-safe means of representing claims to be transferred between two parties.
+
+What is JWT used for?
+JWT is primarily used for securely transmitting information between a client and a server, often for authentication and authorization.
+
+How does JWT work?
+JWT consists of three parts: a header, a payload, and a signature. The header specifies the token type and algorithm, the payload contains the claims or data, and the signature is used to verify the token's integrity.
+
+Header: 
+Consists of two parts:
+- The signing algorithm that’s being used.
+- The type of token, which, in this case, is mostly “JWT”.
+
+Payload: The payload contains the claims or the JSON object.
+
+Signature: A string that is generated via a cryptographic algorithm that can be used to verify the integrity of the JSON payload.
+
+
+Is JWT secure?
+JWT is secure because it is signed using a secret key or a public/private key pair, ensuring that the token is not tampered with during transmission.
+
+What are the advantages of using JWT?
+JWT is stateless, meaning no server-side storage is needed. 
+It's also compact and can be easily passed in URLs, headers, or cookies.
+
+Can JWT be used for sessions?
+Yes, JWT is commonly used to manage user sessions, replacing traditional session mechanisms with token-based authentication.
+
+__________________________________
+
+JWT (JSON Web Token) is a secure, compact way to transmit information between a client and server, often used for authentication. It consists of three parts: a header, payload, and signature. JWTs are stateless, making them scalable and efficient for session management.
+
+
+
+JWT، أو رمز الويب المعتمد على JSON،
+ هو وسيلة آمنة ومضغوطة لنقل المعلومات بين طرفين، مثل العميل والخادم.
+ وغالبًا ما يُستخدم للتحقق من الهوية والتفويض.
+ يتكون من ثلاثة أجزاء: الرأس، الذي يحدد نوع الرمز وخوارزمية التشفير؛ الحمولة، التي تحتوي على البيانات المنقولة؛ والتوقيع، الذي يضمن سلامة الرمز وصحته.
+
